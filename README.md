@@ -3,4 +3,4 @@
  
 + [1如何用纯 CSS 创作一个按钮文字滑动特效](http://demo.zhangbing.name/demo1.html)
 
-+ [2视频演示如何用纯 CSS 创作一个矩形旋转 loader 特效](http://demo.zhangbing.name/demo2.html)
++ [2如何用纯 CSS 创作一个矩形旋转 loader 特效](http://demo.zhangbing.name/demo2.html)
