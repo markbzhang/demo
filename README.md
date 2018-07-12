@@ -5,3 +5,4 @@
 + [2如何用纯 CSS 创作一个矩形旋转 loader 特效](http://demo.zhangbing.name/demo2.html)
 + [3如何用纯 CSS 创作一个容器厚条纹边框特效](http://demo.zhangbing.name/demo3.html)
 + [4如何用纯 CSS 创作一个金属光泽 3D 按钮特效](http://demo.zhangbing.name/demo4.html)
++ [5如何用 CSS 创作一个立体滑动 toggle 交互控件](http://demo.zhangbing.name/demo5.html)
