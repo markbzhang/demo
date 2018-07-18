@@ -8,3 +8,4 @@
 + [5如何用 CSS 创作一个立体滑动 toggle 交互控件](http://demo.zhangbing.name/demo5.html)
 + [6如何用纯 CSS 绘制一颗闪闪发光的璀璨钻石](http://demo.zhangbing.name/demo6.html)
 + [7如何用纯 CSS 创作一个 3D 文字跑马灯特效](http://demo.zhangbing.name/demo7.html)
++ [8如何用纯 CSS 创作一个充电 loader 特效](http://demo.zhangbing.name/demo8.html)
