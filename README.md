@@ -10,3 +10,4 @@
 + [7如何用纯 CSS 创作一个 3D 文字跑马灯特效](http://demo.zhangbing.name/demo7.html)
 + [8如何用纯 CSS 创作一个充电 loader 特效](http://demo.zhangbing.name/demo8.html)
 + [9如何用纯 CSS 创作一种按钮被瞄准的交互特效](http://demo.zhangbing.name/demo9.html)
++ [10如何用纯 CSS 创作一个同心圆弧旋转 loader 特效](http://demo.zhangbing.name/demo10.html)
