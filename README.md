@@ -11,3 +11,4 @@
 + [8如何用纯 CSS 创作一个充电 loader 特效](http://demo.zhangbing.name/demo8.html)
 + [9如何用纯 CSS 创作一种按钮被瞄准的交互特效](http://demo.zhangbing.name/demo9.html)
 + [10如何用纯 CSS 创作一个同心圆弧旋转 loader 特效](http://demo.zhangbing.name/demo10.html)
++ [11如何用纯 CSS 创作一个荧光脉冲 loader 特效](http://demo.zhangbing.name/demo11.html)
