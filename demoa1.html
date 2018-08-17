@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style type="text/css">
+        .noise {
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          position: absolute;
+          animation: noise 0.2s infinite;
+          background-color: #251a5d;
+          background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFNWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDAgNzkuMTYwNDUxLCAyMDE3LzA1LzA2LTAxOjA4OjIxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0RXZ0PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiIHRpZmY6T3JpZW50YXRpb249IjEiIHhtcDpDcmVhdGVEYXRlPSIyMDE4LTA1LTExVDIxOjA2OjEwKzAyOjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAxOC0wNi0xNFQwMTo1MzozMSswMjowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAxOC0wNi0xNFQwMTo1MzozMSswMjowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1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");
+        }
+        @-moz-keyframes noise {
+          0%, 100% {
+            background-position: 0 0;
+          }
+          32% {
+            background-position: 0 0;
+          }
+          33% {
+            background-position: 20px -20px;
+          }
+          65% {
+            background-position: 20px -20px;
+          }
+          66% {
+            background-position: 10px 10px;
+          }
+          99% {
+            background-position: 10px 10px;
+          }
+          100% {
+            background-position: -30px 30px;
+          }
+        }
+        @-webkit-keyframes noise {
+          0%, 100% {
+            background-position: 0 0;
+          }
+          32% {
+            background-position: 0 0;
+          }
+          33% {
+            background-position: 20px -20px;
+          }
+          65% {
+            background-position: 20px -20px;
+          }
+          66% {
+            background-position: 10px 10px;
+          }
+          99% {
+            background-position: 10px 10px;
+          }
+          100% {
+            background-position: -30px 30px;
+          }
+        }
+        @-o-keyframes noise {
+          0%, 100% {
+            background-position: 0 0;
+          }
+          32% {
+            background-position: 0 0;
+          }
+          33% {
+            background-position: 20px -20px;
+          }
+          65% {
+            background-position: 20px -20px;
+          }
+          66% {
+            background-position: 10px 10px;
+          }
+          99% {
+            background-position: 10px 10px;
+          }
+          100% {
+            background-position: -30px 30px;
+          }
+        }
+        @keyframes noise {
+          0%, 100% {
+            background-position: 0 0;
+          }
+          32% {
+            background-position: 0 0;
+          }
+          33% {
+            background-position: 20px -20px;
+          }
+          65% {
+            background-position: 20px -20px;
+          }
+          66% {
+            background-position: 10px 10px;
+          }
+          99% {
+            background-position: 10px 10px;
+          }
+          100% {
+            background-position: -30px 30px;
+          }
+        }
+        </style>
+
+</head>
+<body>
+    
+   
+        <div class="noise"></div>
+
+
+</body>
+</html>
