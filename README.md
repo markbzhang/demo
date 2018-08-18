@@ -22,4 +22,4 @@
 + [1错误案例用background-position示范雪花背景](http://demo.zhangbing.name/demoa1.html)
 + [2正确案例用transform或opacity示范雪花背景](http://demo.zhangbing.name/demoa2.html)
 + [3边距重叠示例](http://demo.zhangbing.name/demoa3.html)
-
++ [4垂直margin重叠例子](http://demo.zhangbing.name/demoa4.html)
