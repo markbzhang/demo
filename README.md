@@ -18,6 +18,7 @@
 + [15如何用纯 CSS 创作条形图，不用任何 JS 图表库](http://demo.zhangbing.name/demo15.html)
 + [16如何用纯 CSS 创作一个渐变色动画边框](http://demo.zhangbing.name/demo16.html)
 + [17如何用纯 CSS 创作炫酷的同心矩形旋转动画](http://demo.zhangbing.name/demo17.html)
++ [18如何用纯 CSS 创作 404 文字变形为 NON 文字的交互特效](http://demo.zhangbing.name/demo18.html)
 
 ---
 
