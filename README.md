@@ -28,3 +28,10 @@
 + [2正确案例用transform或opacity示范雪花背景](http://demo.zhangbing.name/demoa2.html)
 + [3边距重叠示例](http://demo.zhangbing.name/demoa3.html)
 + [4垂直margin重叠例子](http://demo.zhangbing.name/demoa4.html)
++ [5table布局(display:table) 实现 未知宽高元素的水平垂直居中](http://demo.zhangbing.name/demoa5.html)
++ [6绝对布局（position:absolute）+translate 实现 未知宽高元素的水平垂直居中](http://demo.zhangbing.name/demoa6.html)
++ [7使用inline-block 和vertical-align 实现 未知宽高元素的水平垂直居中](http://demo.zhangbing.name/demoa7.html)
++ [8使用css3 flex布局 实现 未知宽高元素的水平垂直居中](http://demo.zhangbing.name/demoa8.html)
+
+
+

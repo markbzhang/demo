@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+ /*未知宽度高度的水平垂直居中：
+* 如果放在body中，则需要给html,body设置一个“height:100%”的属性。
+* display:table;
+* display:table-cell;
+* vertical-align: middle;
+* */    
+
+
+    body{
+        margin:0;
+        padding: 0;
+    }
+
+    .section{
+        width:1200px;
+        height:500px;
+        margin: 0 auto;
+        position:relative;
+        text-align:center;
+    }
+
+    .section-1{
+        background: #666;
+    }
+
+    .table{
+        width:100%;
+        height:100%;
+        display:table;
+        position:relative;
+        background:#666;
+    }
+
+    .tablecell{
+        display:table-cell;
+        text-align:center;
+        vertical-align:middle;
+    }
+
+
+    .content{
+        font-size: 30px;
+        line-height: 1.5;
+    }
+
+
+
+    
+    </style>
+</head>
+<body>
+    <div class="section section-1">
+        <div class="table">
+            <div class="tablecell">
+                <h1>未知宽度高度元素水平垂直居中</h1>
+                <p class="content">
+                    张炳测试用于体验学习<br/>
+                    更多test例子请关注我的github
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

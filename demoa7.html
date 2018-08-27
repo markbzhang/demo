@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+ /*未知宽度高度的水平垂直居中：
+* 采用的display:inline-block，然后借助另一个元素的高度来实现居中
+* */   
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .section{
+            width: 1200px;
+            height: 500px;
+            text-align: center;
+            background:#999;
+        }   
+
+        .section span{
+            display:inline-block;
+            width:0;
+            height:100%;
+            vertical-align:middle;
+            zoom:1;
+            *display:inline;
+        }
+
+        .section .wrap{
+            display:inline-block;
+            zoom: 1;/*BFC*/
+            *display: inline;
+        }
+
+
+    </style>
+</head>
+<body>
+ 
+    <div class="section">
+        <span></span>
+        <div class="wrap">
+          <p class="content">
+            未知宽度高度的水平垂直居中<br />
+            张炳测试用于体验学习<br/>
+            更多test例子请关注我的github
+          </p>
+        </div>
+    </div>
+
+
+</body>
+</html>
