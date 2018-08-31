@@ -1,5 +1,5 @@
 # 说明
-下面是我参考其他前端大神，自己写的coding样例来学习html+css，所有代码均是自己一个一个写出来,大家可以从小例子学起。欢迎一起Fork！
+下面是我参考其他前端大神，自己写的coding样例来学习html+css，所有代码均是自己一个一个写出来,大家可以从小例子学起，最重要的事情说3次，一定要亲自动手，动手，动手。欢迎一起Fork！
  
 + [1如何用纯 CSS 创作一个按钮文字滑动特效](http://demo.zhangbing.name/demo1.html)
 + [2如何用纯 CSS 创作一个矩形旋转 loader 特效](http://demo.zhangbing.name/demo2.html)
@@ -20,7 +20,7 @@
 + [17如何用纯 CSS 创作炫酷的同心矩形旋转动画](http://demo.zhangbing.name/demo17.html)
 + [18如何用纯 CSS 创作 404 文字变形为 NON 文字的交互特效](http://demo.zhangbing.name/demo18.html)
 + [19如何用纯 CSS 创作一种有削铁如泥感觉的菜单导航特效](http://demo.zhangbing.name/demo19.html)
-
++ [20如何用纯 CSS 为母亲节创作一颗像素画风格的爱心](http://demo.zhangbing.name/demo20.html)
 
 ---
 
