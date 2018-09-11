@@ -1,6 +1,4 @@
-# 说明
-
-下面是一些案例，包括从网上找的，自己写的coding样例来学习html+css，所有代码均是自己一个一个写出来,大家可以从小例子学起，最重要的事情说3次，一定要亲自动手，动手，动手。欢迎一起Fork！详情看[github](https://github.com/markbzhang/demo)出处!
+__下面是一些案例，包括从网上找的，自己写的coding样例来学习html+css，所有代码均是自己一个一个写出来,大家可以从小例子学起，最重要的事情说3次，一定要亲自动手，动手，动手。欢迎一起Fork！详情看[github](https://github.com/markbzhang/demo)出处!__
 
 + [1错误案例用background-position示范雪花背景](http://demo.zhangbing.name/demoa1.html)
 + [2正确案例用transform或opacity示范雪花背景](http://demo.zhangbing.name/demoa2.html)
