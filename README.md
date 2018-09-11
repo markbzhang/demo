@@ -1,6 +1,18 @@
 # 说明
-下面是我参考其他前端大神，自己写的coding样例来学习html+css，所有代码均是自己一个一个写出来,大家可以从小例子学起，最重要的事情说3次，一定要亲自动手，动手，动手。欢迎一起Fork！
- 
+
+下面是一些案例，包括从网上找的，自己写的coding样例来学习html+css，所有代码均是自己一个一个写出来,大家可以从小例子学起，最重要的事情说3次，一定要亲自动手，动手，动手。欢迎一起Fork！详情看[github](https://github.com/markbzhang/demo)出处!
+
++ [1错误案例用background-position示范雪花背景](http://demo.zhangbing.name/demoa1.html)
++ [2正确案例用transform或opacity示范雪花背景](http://demo.zhangbing.name/demoa2.html)
++ [3边距重叠示例](http://demo.zhangbing.name/demoa3.html)
++ [4垂直margin重叠例子](http://demo.zhangbing.name/demoa4.html)
++ [5table布局(display:table) 实现 未知宽高元素的水平垂直居中](http://demo.zhangbing.name/demoa5.html)
++ [6绝对布局（position:absolute）+translate 实现 未知宽高元素的水平垂直居中](http://demo.zhangbing.name/demoa6.html)
++ [7使用inline-block 和vertical-align 实现 未知宽高元素的水平垂直居中](http://demo.zhangbing.name/demoa7.html)
++ [8使用css3 flex布局 实现 未知宽高元素的水平垂直居中](http://demo.zhangbing.name/demoa8.html)
+
+---
+
 + [1如何用纯 CSS 创作一个按钮文字滑动特效](http://demo.zhangbing.name/demo1.html)
 + [2如何用纯 CSS 创作一个矩形旋转 loader 特效](http://demo.zhangbing.name/demo2.html)
 + [3如何用纯 CSS 创作一个容器厚条纹边框特效](http://demo.zhangbing.name/demo3.html)
@@ -22,16 +34,10 @@
 + [19如何用纯 CSS 创作一种有削铁如泥感觉的菜单导航特效](http://demo.zhangbing.name/demo19.html)
 + [20如何用纯 CSS 为母亲节创作一颗像素画风格的爱心](http://demo.zhangbing.name/demo20.html)
 
----
 
-+ [1错误案例用background-position示范雪花背景](http://demo.zhangbing.name/demoa1.html)
-+ [2正确案例用transform或opacity示范雪花背景](http://demo.zhangbing.name/demoa2.html)
-+ [3边距重叠示例](http://demo.zhangbing.name/demoa3.html)
-+ [4垂直margin重叠例子](http://demo.zhangbing.name/demoa4.html)
-+ [5table布局(display:table) 实现 未知宽高元素的水平垂直居中](http://demo.zhangbing.name/demoa5.html)
-+ [6绝对布局（position:absolute）+translate 实现 未知宽高元素的水平垂直居中](http://demo.zhangbing.name/demoa6.html)
-+ [7使用inline-block 和vertical-align 实现 未知宽高元素的水平垂直居中](http://demo.zhangbing.name/demoa7.html)
-+ [8使用css3 flex布局 实现 未知宽高元素的水平垂直居中](http://demo.zhangbing.name/demoa8.html)
+
+
+
 
 
 
