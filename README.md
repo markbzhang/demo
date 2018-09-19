@@ -35,7 +35,7 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 + [18如何用纯 CSS 创作 404 文字变形为 NON 文字的交互特效](http://demo.zhangbing.name/demo18.html)
 + [19如何用纯 CSS 创作一种有削铁如泥感觉的菜单导航特效](http://demo.zhangbing.name/demo19.html)
 + [20如何用纯 CSS 为母亲节创作一颗像素画风格的爱心](http://demo.zhangbing.name/demo20.html)
-
++ [21如何用纯CSS创作文本滑动特效的UI界面](http://demo.zhangbing.name/demo21.html)
 
 
 
