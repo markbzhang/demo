@@ -11,6 +11,7 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 + [7使用inline-block 和vertical-align 实现 未知宽高元素的水平垂直居中](http://demo.zhangbing.name/demoa7.html)
 + [8使用css3 flex布局 实现 未知宽高元素的水平垂直居中](http://demo.zhangbing.name/demoa8.html)
 + [9z-index创建局部层叠上下文在IE6,7下与高级浏览器下的区别](http://demo.zhangbing.name/demoa9.html)
++ [10z-index = -1 隐藏元素,挡住它是其父元素的background](http://demo.zhangbing.name/demoa10.html)
 
 
 ---

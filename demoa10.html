@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style type="text/css">
+
+
+.outer{
+ background-color: #555555; 
+}
+
+.inner{
+  position: relative;
+  z-index: -1;
+  
+  background-color: #f20000;
+  height: 200px;
+}
+
+.inner-inner{
+  
+  background-color: #00f200;
+    position: relative;
+    z-index: -2;
+}
+.inner-inner p{
+  padding-left:100px;
+}
+.btn{
+  position:absolute;
+  top:3px;
+  z-index:-10;
+}
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="outer">
+        <p>outer</p>
+        <div class="inner">
+          <p>inner</p>
+          <div class="inner-inner">
+            <button class="btn">huhu</button>
+            <p>inner-inner</p>        
+          </div>
+        </div>
+      </div>
+
+
+</body>
+</html>
