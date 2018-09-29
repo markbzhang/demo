@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>使元素消失的方法总结</title>
+    <style type="text/css">
+
+        html,document{
+            z-index: 1;
+        }
+
+        #obj1{
+            font-size:0;
+            line-height:0;
+            width:0;
+            height:0;
+        }
+
+        #obj2{
+            display: none;
+        }
+
+        #obj3{
+            visibility: hidden;
+        }
+
+        #obj4{
+            opacity: 0;
+        }
+
+
+        #obj5.outer{
+        background-color: #555555; 
+        }
+
+
+        #obj5 .inner{
+            position: relative;
+            z-index: -1;
+            background-color: #f20000;
+        }
+
+
+        #obj6{
+            position: absolute;
+            clip: rect(0 auto 35px 10px);
+        }
+
+        #obj7{
+            transform:translatex(-100%);
+        }
+
+        #obj8{
+            width: 150px;
+            height: 150px;
+            overflow: hidden;
+        }
+
+
+        </style>
+</head>
+<body>
+
+
+    <h2>方法1 将元素的font-size，line-height,width,height设置为0 </h2>
+    <img src="https://avatar-static.segmentfault.com/171/756/1717563857-5baf8aa8a97b5_huge256" id="obj1">
+
+    <hr>
+
+    <h2>方法2 display:none 方法</h2>
+    <img src="https://avatar-static.segmentfault.com/171/756/1717563857-5baf8aa8a97b5_huge256" id="obj2"> 
+
+    <hr>
+
+    <h2>方法3 visibility：hidden 方法</h2>
+    <img src="https://avatar-static.segmentfault.com/171/756/1717563857-5baf8aa8a97b5_huge256" id="obj3">   
+
+    <hr>
+
+    <h2>方法4 opacity：0 方法</h2>
+    <img src="https://avatar-static.segmentfault.com/171/756/1717563857-5baf8aa8a97b5_huge256" id="obj4">  
+    
+    <hr>   
+
+    <h2>方法5 z-index:-1</h2>
+    <div id="obj5" class="outer">
+        <p>outer</p>
+        <div class="inner">
+            <p>inner</p>
+            <img src="https://avatar-static.segmentfault.com/171/756/1717563857-5baf8aa8a97b5_huge256">  
+        </div>
+    </div>
+
+    <hr> 
+    
+    <h2>方法6 设置元素的clip (必须将position的值设为absolute或者fixed，此属性方可使用)</h2>
+    <img id="obj6" src="https://avatar-static.segmentfault.com/171/756/1717563857-5baf8aa8a97b5_huge256">  
+
+
+    <hr> 
+
+    <h2>方法7 设置元素的transform的translateX（Y）的值为-100%</h2>
+    <img id="obj7" src="https://avatar-static.segmentfault.com/171/756/1717563857-5baf8aa8a97b5_huge256">  
+
+
+    <hr> 
+
+    <h2>方法8 overflow:hidden将要隐藏的元素移除父元素的范围</h2>
+    <div id="obj8">
+            <img  src="https://avatar-static.segmentfault.com/171/756/1717563857-5baf8aa8a97b5_huge256">  
+    </div>
+
+</body>
+</html>
