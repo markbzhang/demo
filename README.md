@@ -2,6 +2,8 @@ __下面是一些案例，包括从网上找的，自己写的coding样例来学
 
 ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打开观看学习。
 
+# 学习案例
+
 + [1错误案例用background-position示范雪花背景](http://demo.zhangbing.name/demoa1.html)
 + [2正确案例用transform或opacity示范雪花背景](http://demo.zhangbing.name/demoa2.html)
 + [3边距重叠示例](http://demo.zhangbing.name/demoa3.html)
@@ -14,7 +16,7 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 + [10z-index = -1 隐藏元素,挡住它是其父元素的background](http://demo.zhangbing.name/demoa10.html)
 + [11使元素消失的方法总结](http://demo.zhangbing.name/demoa11.html)
 
----
+# 视觉案例
 
 + [1如何用纯 CSS 创作一个按钮文字滑动特效](http://demo.zhangbing.name/demo1.html)
 + [2如何用纯 CSS 创作一个矩形旋转 loader 特效](http://demo.zhangbing.name/demo2.html)
@@ -39,8 +41,9 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 + [21如何用纯CSS创作文本滑动特效的UI界面](http://demo.zhangbing.name/demo21.html)
 + [22如何用纯 CSS 创作出美丽的彩虹条纹文字](http://demo.zhangbing.name/demo22.html)
 
+# javascript代码学习
 
-
+详情请点击[这里](http://js.zhangbing.name)
 
 
 
