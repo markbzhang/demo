@@ -40,6 +40,7 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 + [20如何用纯 CSS 为母亲节创作一颗像素画风格的爱心](http://demo.zhangbing.name/demo20.html)
 + [21如何用纯CSS创作文本滑动特效的UI界面](http://demo.zhangbing.name/demo21.html)
 + [22如何用纯 CSS 创作出美丽的彩虹条纹文字](http://demo.zhangbing.name/demo22.html)
++ [23如何用纯 CSS 创作一个菜单反色填充特效](http://demo.zhangbing.name/demo23.html)
 
 # javascript代码学习
 
