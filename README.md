@@ -41,6 +41,7 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 + [21如何用纯CSS创作文本滑动特效的UI界面](http://demo.zhangbing.name/demo21.html)
 + [22如何用纯 CSS 创作出美丽的彩虹条纹文字](http://demo.zhangbing.name/demo22.html)
 + [23如何用纯 CSS 创作一个菜单反色填充特效](http://demo.zhangbing.name/demo23.html)
++ [24如何用纯 CSS 创作出平滑的层叠海浪特效](http://demo.zhangbing.name/demo24.html)
 
 # javascript代码学习
 
