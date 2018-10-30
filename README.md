@@ -43,6 +43,7 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 + [23如何用纯 CSS 创作一个菜单反色填充特效](http://demo.zhangbing.name/demo23.html)
 + [24如何用纯 CSS 创作出平滑的层叠海浪特效](http://demo.zhangbing.name/demo24.html)
 + [25如何用纯 CSS 创作一个慧星拖尾效果的 loader 动画](http://demo.zhangbing.name/demo25.html)
++ [26如何用不到 50 行 CSS 代码，创作按钮被从纸上掀起的立体效果](http://demo.zhangbing.name/demo26.html)
 
 # javascript代码学习
 
