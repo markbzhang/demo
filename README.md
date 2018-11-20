@@ -50,5 +50,8 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 
 详情请点击[这里](http://js.zhangbing.name)
 
+# 博客日志学习案例
+
+详情请点击[这里](http://www.zhangbing.name)
 
 
