@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .px12{
+            font-size: 12px;
+        }
+        .px10{
+            font-size: 10px;
+        }
+
+        .px8{
+            font-size: 8px;
+        }
+
+        .px3{
+            font-size: 3px;
+        }
+
+
+
+        .noromal{
+            display: block;
+            border:1px solid red;
+            text-align: left;
+        }
+    
+        .pxr12{
+            font-size: 12px;
+        }
+        .pxr10{
+            font-size: 12px;
+            -webkit-transform:scale(0.83);
+        }
+
+        .pxr8{
+            font-size: 12px;
+            -webkit-transform:scale(0.66);
+        }
+
+        .pxr3{
+            font-size: 12px;
+            -webkit-transform: scale(0.25);
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 在chorme显示，显示的字体大小不对 -->
+    <span class="px12">世界，我来了，我爱你！</span><br/>
+    <span class="px10">世界，我来了，我爱你！</span><br/>
+    <span class="px8">世界，我来了，我爱你！</span><br/>
+    <span class="px3">世界，我来了，我爱你！</span><br/>
+
+    <!-- 在chorme显示，正常显示的字体大小 -->
+    <p><span class="pxr12 noromal">世界，我来了，我爱你！</span> </p>
+    <p><span class="pxr10 noromal">世界，我来了，我爱你！</span> </p>
+    <p><span class="pxr8 noromal">世界，我来了，我爱你！</span> </p>
+    <p><span class="pxr3 noromal">世界，我来了，我爱你！</span> </p>  
+
+</body>
+</html>

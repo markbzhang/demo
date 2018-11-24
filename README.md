@@ -15,6 +15,7 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 + [9z-index创建局部层叠上下文在IE6,7下与高级浏览器下的区别](http://demo.zhangbing.name/demoa9.html)
 + [10z-index = -1 隐藏元素,挡住它是其父元素的background](http://demo.zhangbing.name/demoa10.html)
 + [11使元素消失的方法总结](http://demo.zhangbing.name/demoa11.html)
++ [12chrome显示12px以下字体](http://demo.zhangbing.name/demoa12.html)
 
 # 视觉案例
 
