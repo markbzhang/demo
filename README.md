@@ -16,6 +16,7 @@ __下面是一些案例，包括从网上找的，自己写的coding样例来学
 + [10z-index = -1 隐藏元素,挡住它是其父元素的background](http://demo.zhangbing.name/demoa10.html)
 + [11使元素消失的方法总结](http://demo.zhangbing.name/demoa11.html)
 + [12chrome显示12px以下字体](http://demo.zhangbing.name/demoa12.html)
++ [屏幕宽度分成10分rem+js方案](http://demo.zhangbing.name/201812/demoa13.html)
 
 ## 视觉案例
 
