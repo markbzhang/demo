@@ -53,6 +53,10 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 + [27如何用纯 CSS 创作一个精彩的彩虹 loading 特效](http://demo.zhangbing.name/demo27.html)
 + [28如何用纯 CSS 绘制一个世界上不存在的彭罗斯三角形](http://demo.zhangbing.name/demo28.html)
 
+# 构建学习案例
+
++ [1webpack4打包JS](https://github.com/markbzhang/demo/tree/master/webpack/demo01)
+
 # javascript代码学习
 
 各种javascript功能片段，take it , get it , handle it ! Well done ,man!
