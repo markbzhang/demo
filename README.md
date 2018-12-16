@@ -52,11 +52,13 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 + [26如何用不到 50 行 CSS 代码，创作按钮被从纸上掀起的立体效果](http://demo.zhangbing.name/demo26.html)
 + [27如何用纯 CSS 创作一个精彩的彩虹 loading 特效](http://demo.zhangbing.name/demo27.html)
 + [28如何用纯 CSS 绘制一个世界上不存在的彭罗斯三角形](http://demo.zhangbing.name/demo28.html)
++ [29前端每日实战：29# 视频演示如何不用 transition 和 animation 也能做网页动画](http://demo.zhangbing.name/201812/demo29.html)
 
 # 构建学习案例
 
-+ [2webpack4编译ES6](https://github.com/markbzhang/demo/tree/master/webpack/demo02)
 + [1webpack4打包JS](https://github.com/markbzhang/demo/tree/master/webpack/demo01)
++ [2webpack4编译ES6](https://github.com/markbzhang/demo/tree/master/webpack/demo02)
+
 
 # javascript代码学习
 
