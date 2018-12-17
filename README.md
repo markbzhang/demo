@@ -58,6 +58,7 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 
 + [1webpack4打包JS](https://github.com/markbzhang/demo/tree/master/webpack/demo01)
 + [2webpack4编译ES6](https://github.com/markbzhang/demo/tree/master/webpack/demo02)
++ [3webpack4多页面解决方案--提取公共代码](https://github.com/markbzhang/demo/tree/master/webpack/demo03)
 
 
 # javascript代码学习
