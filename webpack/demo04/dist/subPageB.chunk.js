@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],[,,function(s,n,o){"use strict";o.r(n);o(4);console.log("I'm subPageB"),n.default="subPageB"},,function(s,n,o){"use strict"}]]);
