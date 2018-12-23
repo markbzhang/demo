@@ -62,7 +62,7 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 + [2webpack4编译ES6](https://github.com/markbzhang/demo/tree/master/webpack/demo02)
 + [3webpack4多页面解决方案--提取公共代码](https://github.com/markbzhang/demo/tree/master/webpack/demo03)
 + [4webpack4单页面解决方案--代码分割和懒加载](https://github.com/markbzhang/demo/tree/master/webpack/demo04)
-
++ [5webpack4处理CSS](https://github.com/markbzhang/demo/tree/master/webpack/demo05)
 
 # javascript代码学习
 
