@@ -127,6 +127,7 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 
 ## Nodejs
 
++ [分析Node.js中的内存泄漏](http://blog.zhangbing.club/Nodejs/%E5%88%86%E6%9E%90Node.js%E4%B8%AD%E7%9A%84%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F/)
 + [A parameter verify tools for Egg](http://blog.zhangbing.club/Nodejs/A%20parameter%20verify%20tools%20%20for%20Egg/)
 + [淘宝NPM镜像](http://blog.zhangbing.club/Nodejs/%E6%B7%98%E5%AE%9DNPM%E9%95%9C%E5%83%8F/)
 
