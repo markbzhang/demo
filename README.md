@@ -151,6 +151,8 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 
 ## 学习案例
 
++ [厂家俱乐部小程序惊天面世](http://blog.zhangbing.club/学习案例/厂家俱乐部小程序惊天面世/)
++ [小程序实战踩坑之B2B商城项目总结](http://blog.zhangbing.club/学习案例/小程序实战踩坑之B2B商城项目总结/)
 + [利用vuejs+element-ui+Parcel搭建自定义后台后记](http://blog.zhangbing.club/%E5%AD%A6%E4%B9%A0%E6%A1%88%E4%BE%8B/%E5%88%A9%E7%94%A8vuejs+element-ui+Parcel%E6%90%AD%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E5%90%8E%E5%8F%B0%E5%90%8E%E8%AE%B0/)
 + [js-pule-code学习_Github持续更新](http://blog.zhangbing.club/%E5%AD%A6%E4%B9%A0%E6%A1%88%E4%BE%8B/js-pule-code%E5%AD%A6%E4%B9%A0_Github%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/)
 + [利用vuejs+element-ui+Parcel搭建自定义后台](http://blog.zhangbing.club/%E5%AD%A6%E4%B9%A0%E6%A1%88%E4%BE%8B/%E5%88%A9%E7%94%A8vuejs+element-ui+Parcel%E6%90%AD%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E5%90%8E%E5%8F%B0/)
