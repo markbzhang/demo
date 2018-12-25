@@ -165,6 +165,7 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 
 ## 杂笔随谈
 
++ [写博客经验砍砍](http://blog.zhangbing.club/%E6%9D%82%E7%AC%94%E9%9A%8F%E8%B0%88/2018-12-25-blog-experience/)
 + [waketime时间记录工具分享](http://blog.zhangbing.club/%E6%9D%82%E7%AC%94%E9%9A%8F%E8%B0%88/waketime%E6%97%B6%E9%97%B4%E8%AE%B0%E5%BD%95%E5%B7%A5%E5%85%B7%E5%88%86%E4%BA%AB/)
 + [2019年数据可视化研究](http://blog.zhangbing.club/%E6%9D%82%E7%AC%94%E9%9A%8F%E8%B0%88/2019%E5%B9%B4%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96%E7%A0%94%E7%A9%B6/)
 + [努力何处用](http://blog.zhangbing.club/%E6%9D%82%E7%AC%94%E9%9A%8F%E8%B0%88/%E5%8A%AA%E5%8A%9B%E4%BD%95%E5%A4%84%E7%94%A8/)
