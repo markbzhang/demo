@@ -55,6 +55,7 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 + [29如何不用 transition 和 animation 也能做网页动画](http://demo.zhangbing.name/201812/demo29.html)
 + [30如何用纯 CSS 创作一个晃动的公告板](http://demo.zhangbing.name/201812/demo30.html)
 + [31如何利用 CSS 的动画原理，创作一个乒乓球对打动画](http://demo.zhangbing.name/201812/demo31.html)
++ [32如何用纯 CSS 创作六边形按钮特效](http://demo.zhangbing.name/201812/demo32.html)
 
 # 构建学习案例
 
