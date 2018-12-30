@@ -1,0 +1,33 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  height: 400px;
+  width: 400px;
+  border: 5px solid #000;
+  color: #000;
+}
+
+.box div {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.box .ani1 {
+  background-image: url(static/sprite-23f27.min.png);
+  background-position: 0px 0px;
+  background-size: 1280px 729px;
+}
+.box .ani2 {
+  background-image: url(static/sprite-23f27.min.png);
+  background-position: -640px 0px;
+  background-size: 1280px 729px;
+}
+.box .ani3 {
+  background-image: url(static/sprite-23f27.min.png);
+  background-position: 0px -640px;
+  background-size: 1280px 729px;
+}

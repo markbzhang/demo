@@ -68,6 +68,7 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 + [7webpack4SCSS提取和懒加载](https://github.com/markbzhang/demo/tree/master/webpack/demo07)
 + [8webpack4 JS Tree Shaking](https://github.com/markbzhang/demo/tree/master/webpack/demo08)
 + [9webpack4 CSS Tree Shaking](https://github.com/markbzhang/demo/tree/master/webpack/demo09)
++ [10webpack4图片处理汇总](https://github.com/markbzhang/demo/tree/master/webpack/demo10)
 
 # javascript代码学习
 
