@@ -19,6 +19,7 @@ __下面是一些案例，包括从网上找的，自己写的coding样例来学
 + [13屏幕宽度分成10分rem+js方案](http://demo.zhangbing.name/201812/demoa13.html)
 + [14屏幕宽度分成10分rem+vw方案](http://demo.zhangbing.name/201812/demoa14.html)
 + [15rem+vw布局方案](http://demo.zhangbing.name/201812/demoa15.html)
++ [16椭圆，平行四边形，菱形图片，饼图效果](http://demo.zhangbing.name/201812/demoa16.html)
 
 ## 视觉案例
 

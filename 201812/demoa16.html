@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        html,body{
+            margin: 0;
+            padding: 50px;
+        }
+        .demo1{
+            border-radius: 50%;
+            width: 300px;
+            height: 300px;
+            background-color: red;
+        }
+        .demo2{
+            margin: 50px auto;
+            max-width: 200px;
+            line-height: 30px;
+            text-align: center;    
+            color: white;
+            padding: 10px;
+            position: relative;
+        }
+
+        .demo2:before{
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background-color: green;            
+            transform: skew(-45deg);
+            z-index: -1;      
+        }
+
+        .demo3{
+            margin: 30px auto;
+            width: 100px;
+            height: 100px;
+            transform: rotate(45deg);
+            overflow: hidden;
+            border: 1px solid red;
+        }
+
+        .demo3:before{
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            transform: rotate(-45deg) scale(1.42);
+            background:url(https://avatars1.githubusercontent.com/u/8121621?v=4);
+            background-size: cover;
+        }
+
+        .pie{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: yellowgreen;
+            background-image: linear-gradient(90deg,transparent 50%, #655 0);
+        }
+
+        .pie:before{
+            content: '';
+            display: block;
+            margin-left: 50%;
+            height: 100%;
+            border-radius: 0 100% 100% 0 / 50%; 
+            background-color: inherit; 
+            transform-origin: left;
+            transform: rotate(.2turn);
+        }
+
+    
+    </style>
+</head>
+<body>
+    <div class="demo1"></div>
+
+    <div class="demo2">
+        平行四边形
+    </div>
+
+    <div class="demo3">
+          
+    </div>
+    
+
+    <div class="pie"></div>
+
+</body>
+</html>
