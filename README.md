@@ -74,6 +74,7 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 + [12webpack4处理第三方JavaScript库](https://github.com/markbzhang/demo/tree/master/webpack/demo12)
 + [13webpack4自动生成HTML文件](https://github.com/markbzhang/demo/tree/master/webpack/demo13)
 + [14webpack4 Clean Plugin and Watch Mode](https://github.com/markbzhang/demo/tree/master/webpack/demo14)
++ [15webpack4开发模式与webpack-dev-server](https://github.com/markbzhang/demo/tree/master/webpack/demo15)
 
 # javascript代码学习
 
