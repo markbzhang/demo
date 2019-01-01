@@ -1,0 +1,18 @@
+$bg-color: red !default;
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: $bg-color;
+}
+.new {
+  width: 100vw;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  color: #222;
+}
