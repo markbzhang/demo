@@ -57,6 +57,7 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 + [30如何用纯 CSS 创作一个晃动的公告板](http://demo.zhangbing.name/201812/demo30.html)
 + [31如何利用 CSS 的动画原理，创作一个乒乓球对打动画](http://demo.zhangbing.name/201812/demo31.html)
 + [32如何用纯 CSS 创作六边形按钮特效](http://demo.zhangbing.name/201812/demo32.html)
++ [33如何用纯 CSS 创作牛奶文字变换效果](http://demo.zhangbing.name/201901/demo33.html)
 
 # 构建学习案例
 
