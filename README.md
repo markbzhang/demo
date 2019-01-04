@@ -83,20 +83,21 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 各种javascript功能片段，take it , get it , handle it ! Well done ,man!
 一起动手一起学，欢迎来Fork！详情看[github](https://github.com/markbzhang/js-pure-code)出处!
 
-+ [1Create a cached version of a pure function](https://github.com/markbzhang/js-pure-code/blob/master/demoa1.js)
-+ [2HTML5本地存储-localStorage如何实现定时存储](https://github.com/markbzhang/js-pure-code/blob/master/demoa2.js)
-+ [3利用剪切板JS API优化输入框的粘贴体验](https://github.com/markbzhang/js-pure-code/blob/master/demoa3.js)
-+ [4jQuery增加option](https://github.com/markbzhang/js-pure-code/blob/master/demoa4.js)
-+ [5canvas 画比例圆圈](https://github.com/markbzhang/js-pure-code/blob/master/demoa5.js)
-+ [6块级作用域使立即执行函数表达式（IIFE）不再必要](https://github.com/markbzhang/js-pure-code/blob/master/demoa6.js)
-+ [7获取一个月后的日期](https://github.com/markbzhang/js-pure-code/blob/master/demoa7.js)
-+ [8在各种环境取顶层对象](https://github.com/markbzhang/js-pure-code/blob/master/demoa8.js)
-+ [9判断各种客户端](https://github.com/markbzhang/js-pure-code/blob/master/demoa9.js)
-+ [10监听script的完成事件](https://github.com/markbzhang/js-pure-code/blob/master/demoa10.js)
-+ [11获取URL地址中的GET参数](https://github.com/markbzhang/js-pure-code/blob/master/demoa11.js)
-+ [12通过window.postMessage跨域](http://www.zhangbing.club/images/file/postmessage.html)
-+ [13异步并发执行，按顺序输出的函数封装](https://github.com/markbzhang/js-pure-code/blob/master/demoa13.js)
-+ [14生成指定深度和每层广度的对象](https://github.com/markbzhang/js-pure-code/blob/master/demoa14.js)
++ [根据乱序树数据，组合成根据父parent_id的有序数据](https://github.com/markbzhang/js-pure-code/blob/master/demoa15.js)
++ [Create a cached version of a pure function](https://github.com/markbzhang/js-pure-code/blob/master/demoa1.js)
++ [HTML5本地存储-localStorage如何实现定时存储](https://github.com/markbzhang/js-pure-code/blob/master/demoa2.js)
++ [利用剪切板JS API优化输入框的粘贴体验](https://github.com/markbzhang/js-pure-code/blob/master/demoa3.js)
++ [jQuery增加option](https://github.com/markbzhang/js-pure-code/blob/master/demoa4.js)
++ [canvas 画比例圆圈](https://github.com/markbzhang/js-pure-code/blob/master/demoa5.js)
++ [块级作用域使立即执行函数表达式（IIFE）不再必要](https://github.com/markbzhang/js-pure-code/blob/master/demoa6.js)
++ [获取一个月后的日期](https://github.com/markbzhang/js-pure-code/blob/master/demoa7.js)
++ [在各种环境取顶层对象](https://github.com/markbzhang/js-pure-code/blob/master/demoa8.js)
++ [判断各种客户端](https://github.com/markbzhang/js-pure-code/blob/master/demoa9.js)
++ [监听script的完成事件](https://github.com/markbzhang/js-pure-code/blob/master/demoa10.js)
++ [获取URL地址中的GET参数](https://github.com/markbzhang/js-pure-code/blob/master/demoa11.js)
++ [通过window.postMessage跨域](http://www.zhangbing.club/images/file/postmessage.html)
++ [异步并发执行，按顺序输出的函数封装](https://github.com/markbzhang/js-pure-code/blob/master/demoa13.js)
++ [生成指定深度和每层广度的对象](https://github.com/markbzhang/js-pure-code/blob/master/demoa14.js)
 
 # 博客日志学习案例
 
