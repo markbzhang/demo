@@ -84,7 +84,6 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 各种javascript功能片段，take it , get it , handle it ! Well done ,man!
 一起动手一起学，欢迎来Fork！详情看[github](https://github.com/markbzhang/js-pure-code)出处!
 
-+ [根据乱序树数据，组合成根据父parent_id的有序数据](https://github.com/markbzhang/js-pure-code/blob/master/demoa15.js)
 + [Create a cached version of a pure function](https://github.com/markbzhang/js-pure-code/blob/master/demoa1.js)
 + [HTML5本地存储-localStorage如何实现定时存储](https://github.com/markbzhang/js-pure-code/blob/master/demoa2.js)
 + [利用剪切板JS API优化输入框的粘贴体验](https://github.com/markbzhang/js-pure-code/blob/master/demoa3.js)
@@ -99,6 +98,8 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 + [通过window.postMessage跨域](http://www.zhangbing.club/images/file/postmessage.html)
 + [异步并发执行，按顺序输出的函数封装](https://github.com/markbzhang/js-pure-code/blob/master/demoa13.js)
 + [生成指定深度和每层广度的对象](https://github.com/markbzhang/js-pure-code/blob/master/demoa14.js)
++ [根据乱序树数据，组合成根据父parent_id的有序数据](https://github.com/markbzhang/js-pure-code/blob/master/demoa15.js)
++ [准确的倒计时](https://github.com/markbzhang/js-pure-code/blob/master/demoa16.js)
 
 # 博客日志学习案例
 
