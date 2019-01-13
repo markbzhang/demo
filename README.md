@@ -59,6 +59,7 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 + [32如何用纯 CSS 创作六边形按钮特效](http://demo.zhangbing.name/201812/demo32.html)
 + [33如何用纯 CSS 创作牛奶文字变换效果](http://demo.zhangbing.name/201901/demo33.html)
 + [34如何用纯 CSS 创作在文本前后穿梭的边框](http://demo.zhangbing.name/201901/demo34.html)
++ [35如何把 CSS 径向渐变用得出神入化，只用一个 DOM 元素就能画出国宝熊猫](http://demo.zhangbing.name/201901/demo35.html)
 
 # 构建学习案例
 
