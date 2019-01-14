@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    body{
+        margin: 0;
+    }
+
+    .sky{
+        width: 100vw;
+        height: 100vh;
+        background-color: skyblue;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        position: relative;
+        animation-name: animate-sky;
+        overflow: hidden;
+    }
+
+    .sun{
+        position: absolute;
+        width: 50vmin;
+        height: 50vmin;
+        border-radius: 50%;
+        background-color: gold;
+        animation-name: animate-sun;
+    }
+
+    .moon{
+        position: absolute;
+        width: 50vmin;
+        height: 50vmin;
+        border-radius: 50%;
+        background-color: slategray;
+        transform: translateX(-55vmin);
+        animation-name: animate-moon;
+    }
+
+    @keyframes animate-sky{
+        50%{
+            background-color: black;
+        }
+    }
+
+    @keyframes animate-sun {
+        50% {
+            box-shadow: 0 0 5em 1em white;
+        }
+    }   
+
+    @keyframes animate-moon{
+        from{
+            transform: translateX(-100vmin);
+        }
+        50%{
+            background-color: black;
+        }
+        to{
+            transform:translateX(100vmin);
+        }
+    }
+
+    *{
+        animation: 10s linear infinite;
+    }
+
+
+    
+    </style>
+</head>
+<body>
+    <div class="sky">
+        <div class="sun"></div>
+        <div class="moon"></div>
+    </div>  
+</body>
+</html>
