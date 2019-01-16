@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    body{
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+
+    nav ul{
+        padding: 0;
+    }
+
+    nav ul li{
+        color: white;
+        list-style-type: none;
+        font-size: 32px;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        width: 12em;
+        height: 4em;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        text-align: center;
+        line-height: 4em;
+        letter-spacing: 0.2em;
+        position: relative;
+    }
+
+    :root{
+        --color:dodgerblue;
+        --time-slot-length:0.1s;
+        --t1x:var(--time-slot-length);
+        --t2x:calc(var(--time-slot-length) * 2);
+        --t3x:calc(var(--time-slot-length) * 3);
+        --t4x:calc(var(--time-slot-length) * 4);
+    }
+
+    nav ul li::before{
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        visibility: hidden;
+        top: 0;
+        left: 0;
+        border-top: 1px solid var(--color);
+        border-right: 1px solid var(--color);
+    }
+
+    nav ul li::after{
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        visibility: hidden;
+        bottom: 0;
+        right: 0;
+        border-bottom: 1px solid var(--color);
+        border-left: 1px solid var(--color);
+    }
+    nav ul li:hover{
+        animation: pulse ease-out 1s var(--t4x);
+    }
+
+    @keyframes pulse{
+        from{
+            box-shadow: 0 0 rgba(30,144,255,0.4);
+        }
+
+        to{
+            box-shadow: 0 0 0 1em rgba(30,144,255,0);
+        }
+    }
+
+    nav ul li:hover::before,
+    nav ul li:hover::after{
+        width: 100%;
+        height: 100%;
+        visibility: visible;
+    }
+
+    nav ul li:hover::before {
+        transition:
+            visibility 0s,
+            width linear var(--t1x),
+            height linear var(--t1x) var(--t1x);
+    }
+    
+    nav ul li:hover::after {
+        transition: 
+            visibility 0s var(--t2x),
+            width linear var(--t1x) var(--t2x),
+            height linear var(--t1x) var(--t3x);
+    }
+
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Page</li>
+            <li>About</li>
+            <li>Moive</li>
+        </ul>
+    </nav> 
+</body>
+</html>
