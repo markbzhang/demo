@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    body{
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        background:black;
+    }
+
+    .container p{
+        color: white;
+        font-size: 60px;
+        font-family: sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0;
+        height: 1em;
+        overflow: hidden;
+        position: relative;
+        left: -0.8em;
+    }
+
+    .container p span{
+        display: block;
+        text-align: center;
+        line-height: 1em;
+        animation: lettering 3s infinite ease-in-out alternate;
+    }
+
+    @keyframes lettering{
+        to {
+            transform: translateY(-100%);
+        }
+    }
+
+    .container p:nth-child(odd){
+        transform: skewY(-30deg) skewX(45deg) scaleY(1.3333);
+    }
+
+    .container p:nth-child(even){
+        transform: skewY(-30deg) scaleY(1.3333);
+    }
+
+.container p:nth-child(2) {
+    margin-left: 1.3em;
+}
+
+.container p:nth-child(3) {
+    margin-left: 2.6em;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>
+            <span>stay</span>
+            <span>hungry</span>
+        </p>
+        <p>
+            <span>hungry</span>
+            <span>stay</span>
+        </p>
+        <p>
+            <span>stay</span>
+            <span>foolish</span>
+        </p>
+    </div>
+</body>
+</html>
