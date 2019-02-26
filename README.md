@@ -157,6 +157,7 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 
 ## Web
 
++ [git概念理解和实操](http://blog.zhangbing.club/Web/git概念理解和实操/)
 + [前端架构经验谈之三](http://blog.zhangbing.club/Web/前端架构经验谈之三/)
 + [前端架构经验谈之二](http://blog.zhangbing.club/Web/前端架构经验谈之二/)
 + [前端架构经验谈之一](http://blog.zhangbing.club/Web/前端架构经验谈之一/)
