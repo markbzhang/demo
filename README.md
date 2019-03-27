@@ -153,6 +153,7 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 
 ## Nodejs
 
++ [babel-polyfill的几种使用方式](http://blog.zhangbing.club/Nodejs/babel-polyfill的几种使用方式/)
 + [分析Node.js中的内存泄漏](http://blog.zhangbing.club/Nodejs/分析Node.js中的内存泄漏/)
 + [A parameter verify tools for Egg](http://blog.zhangbing.club/Nodejs/A%20parameter%20verify%20tools%20%20for%20Egg/)
 + [淘宝NPM镜像](http://blog.zhangbing.club/Nodejs/淘宝NPM镜像/)
