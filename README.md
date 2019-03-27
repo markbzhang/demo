@@ -120,6 +120,7 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 
 ## Javascript
 
++ [vue组件按需加载](http://blog.zhangbing.club/Javascript/vue组件按需加载/)
 + [vuejs组件通信精髓归纳](http://blog.zhangbing.club/Javascript/vuejs组件通信精髓归纳)
 + [移动端滚动研究](http://blog.zhangbing.club/Javascript/移动端滚动研究)
 + [Vue.js自定义tipOnce指令用法实例](http://blog.zhangbing.club/Javascript/Vue.js自定义指令用法实例/)
