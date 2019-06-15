@@ -179,6 +179,7 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 
 ## 学习案例
 
++ [车商通SCRM10版本全新上线](http://blog.zhangbing.club/学习案例/车商通SCRM10版本全新上线/)
 + [小程序性能优化总结](http://blog.zhangbing.club/学习案例/小程序性能优化总结/)
 + [小程序倒计时深究](http://blog.zhangbing.club/学习案例/小程序倒计时深究)
 + [厂家俱乐部小程序惊天面世](http://blog.zhangbing.club/学习案例/厂家俱乐部小程序惊天面世/)
