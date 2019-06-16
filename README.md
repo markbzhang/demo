@@ -21,6 +21,7 @@ __下面是一些案例，包括从网上找的，自己写的coding样例来学
 + [15rem+vw布局方案](http://demo.zhangbing.name/201812/demoa15.html)
 + [16椭圆，平行四边形，菱形图片，饼图效果](http://demo.zhangbing.name/201812/demoa16.html)
 + [17CSS 实现瀑布流布局（display: flex）](http://demo.zhangbing.name/201906/demoa17.html)
++ [18CSS 多方案实现跨行或跨列布局 ](http://demo.zhangbing.name/201906/demoa18.html)
 
 
 ## 视觉案例

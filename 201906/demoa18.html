@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+<style>
+.g-container {
+  margin: 20px auto;
+  width: 400px;
+}
+
+.g-item {
+  width: 190px;
+  height: 190px;
+  box-sizing: border-box;
+  border: 1px solid #666;
+  border-radius: 10px;
+  line-height: 190px;
+  font-size: 32px;
+  text-align: center;
+  cursor: pointer;
+  margin: 5px;
+  transition: .1s all;
+}
+
+.g-float {
+  overflow: hidden;
+}
+
+.g-float .g-item {
+  float: left;
+}
+
+.g-float .g-item:first-child {
+  height: 390px;
+}
+
+.g-float .g-item:first-child:hover {
+  height: 190px;
+  width: 390px;
+}
+
+h2 {
+  font-size: 28px;
+  text-align: center;
+  margin: 30px auto;
+}
+
+
+
+.g-flex {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.g-flex .g-item:first-child {
+  height: 390px;
+}
+
+.g-flex:hover {
+  flex-direction: row;
+}
+.g-flex:hover .g-item:first-child {
+  height: 190px;
+  width: 390px;
+}
+
+.g-grid {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, 50%);
+}
+.g-grid .g-item {
+  width: unset;
+  height: unset;
+}
+.g-grid .g-item:first-child {
+  grid-row: 1 / 3;
+  grid-column: 1 / 2;
+}
+
+.g-grid:hover .g-item:first-child {
+  grid-row: 1 / 2;
+  grid-column: 1 / 3;
+}
+
+
+</style>
+
+</head>
+<body>
+    
+
+<div class="g-container">
+    <h2>float 实现</h2>
+    <div class="g-float">
+      <div class="g-item">0</div>
+      <div class="g-item">1</div>
+      <div class="g-item">2</div>
+    </div>
+    <h2>flex 实现</h2>
+    <div class="g-flex">
+      <div class="g-item">0</div>
+      <div class="g-item">1</div>
+      <div class="g-item">2</div>
+    </div>
+    <h2>grid 实现</h2>
+    <div class="g-grid">
+      <div class="g-item">0</div>
+      <div class="g-item">1</div>
+      <div class="g-item">2</div>
+    </div>
+</div>
+
+
+</body>
+</html>
