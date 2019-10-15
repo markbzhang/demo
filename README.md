@@ -185,6 +185,7 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 
 ## 学习案例
 
++ [动态海报营销FabricJs方案](http://blog.zhangbing.club/%E5%AD%A6%E4%B9%A0%E6%A1%88%E4%BE%8B/%E5%8A%A8%E6%80%81%E6%B5%B7%E6%8A%A5%E8%90%A5%E9%94%80FabricJs%E6%96%B9%E6%A1%88/)
 + [全民经纪人小程序发布](http://blog.zhangbing.club/%E5%AD%A6%E4%B9%A0%E6%A1%88%E4%BE%8B/%E5%85%A8%E6%B0%91%E7%BB%8F%E7%BA%AA%E4%BA%BA%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%8F%91%E5%B8%83/)
 + [车商通SCRM10版本全新上线](http://blog.zhangbing.club/学习案例/车商通SCRM10版本全新上线/)
 + [小程序性能优化总结](http://blog.zhangbing.club/学习案例/小程序性能优化总结/)
@@ -203,6 +204,7 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 
 ## 杂笔随谈
 
++ [程序员从业心得](http://blog.zhangbing.club/%E6%9D%82%E7%AC%94%E9%9A%8F%E8%B0%88/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BB%8E%E4%B8%9A%E5%BF%83%E5%BE%97/)
 + [博客归类新方式](http://blog.zhangbing.club/杂笔随谈/博客归类新方式/)
 + [写博客经验砍砍](http://blog.zhangbing.club/杂笔随谈/2018-12-25-blog-experience/)
 + [waketime时间记录工具分享](http://blog.zhangbing.club/杂笔随谈/waketime时间记录工具分享)
