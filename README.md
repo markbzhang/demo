@@ -24,7 +24,7 @@ __下面是一些案例，包括从网上找的，自己写的coding样例来学
 + [18CSS 多方案实现跨行或跨列布局 ](http://demo.zhangbing.name/201906/demoa18.html)
 
 
-## 视觉案例
+## CSS特效案例
 
 ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打开观看学习。
 
