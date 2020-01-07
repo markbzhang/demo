@@ -110,7 +110,8 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 
 # Flutter代码学习
 
-+ [导航演示-导航父子页面的跳转返回](http://demo.zhangbing.name/flutter/20200106.dart)
++ [导航父子页面的跳转返回](https://github.com/markbzhang/demo/blob/master/flutter/20200106.dart)
++ [导航的参数传递和接受](https://github.com/markbzhang/demo/blob/master/flutter/20200106_01.dart)
 
 
 
