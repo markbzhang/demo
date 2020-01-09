@@ -112,6 +112,8 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 
 + [导航父子页面的跳转返回](https://github.com/markbzhang/demo/blob/master/flutter/20200106.dart)
 + [导航的参数传递和接受](https://github.com/markbzhang/demo/blob/master/flutter/20200106_01.dart)
++ [页面跳转并返回数据](https://github.com/markbzhang/demo/blob/master/flutter/20200109.dart)
++ [静态资源和项目图片的处理](https://github.com/markbzhang/demo/blob/master/flutter/20200109_01.file)
 
 
 

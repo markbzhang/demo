@@ -1,0 +1,19 @@
+//  pubspec.yaml  文件
+assets:
+ - images/xcx_code.jpg
+
+
+
+//main.dart
+import 'package:flutter/material.dart';
+
+void main()=>runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: Image.asset('images/xcx_code.jpg'),
+    );
+  }
+}
