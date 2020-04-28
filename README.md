@@ -91,6 +91,7 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 各种javascript功能片段，take it , get it , handle it ! Well done ,man!
 一起动手一起学，欢迎来Fork！详情看[github](https://github.com/markbzhang/js-pure-code)出处!
 
++ [Vuejs批量异步更新策略及nextTick原理](https://github.com/markbzhang/demo/blob/master/js/20200428.js)
 + [Create a cached version of a pure function](https://github.com/markbzhang/js-pure-code/blob/master/demoa1.js)
 + [HTML5本地存储-localStorage如何实现定时存储](https://github.com/markbzhang/js-pure-code/blob/master/demoa2.js)
 + [利用剪切板JS API优化输入框的粘贴体验](https://github.com/markbzhang/js-pure-code/blob/master/demoa3.js)
