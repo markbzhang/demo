@@ -91,7 +91,7 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 
 各种javascript功能片段，take it , get it , handle it ! Well done ,man!
 一起动手一起学，欢迎来Fork！详情看[github](https://github.com/markbzhang/js-pure-code)出处!
-
++ [限制异步操作的并发个数并尽可能快的完成全部](https://github.com/markbzhang/demo/blob/master/js/20200602.js)
 + [使用Promise实现红绿灯交替重复亮](https://github.com/markbzhang/demo/blob/master/js/20200601.js)
 + [Vuejs批量异步更新策略及nextTick原理](https://github.com/markbzhang/demo/blob/master/js/20200428.js)
 + [Create a cached version of a pure function](https://github.com/markbzhang/js-pure-code/blob/master/demoa1.js)
