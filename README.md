@@ -22,7 +22,7 @@ __下面是一些案例，包括从网上找的，自己写的coding样例来学
 + [16椭圆，平行四边形，菱形图片，饼图效果](http://demo.zhangbing.name/201812/demoa16.html)
 + [17CSS 实现瀑布流布局（display: flex）](http://demo.zhangbing.name/201906/demoa17.html)
 + [18CSS 多方案实现跨行或跨列布局 ](http://demo.zhangbing.name/201906/demoa18.html)
-+ [19移动端布局-REM](http://demo.zhangbing.name/2020/demoa19.html)
+
 
 
 ## CSS特效案例
@@ -92,6 +92,7 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 各种javascript功能片段，take it , get it , handle it ! Well done ,man!
 一起动手一起学，欢迎来Fork！详情看[github](https://github.com/markbzhang/js-pure-code)出处!
 
++ [使用Promise实现红绿灯交替重复亮](https://github.com/markbzhang/demo/blob/master/js/20200601.js)
 + [Vuejs批量异步更新策略及nextTick原理](https://github.com/markbzhang/demo/blob/master/js/20200428.js)
 + [Create a cached version of a pure function](https://github.com/markbzhang/js-pure-code/blob/master/demoa1.js)
 + [HTML5本地存储-localStorage如何实现定时存储](https://github.com/markbzhang/js-pure-code/blob/master/demoa2.js)
