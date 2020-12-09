@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+        <title>test vue</title>
+        <script type="text/javascript" src="./vue.js" ></script>
+	</head>
+	<body>
+		<div id="notebook">
+			<aside class="side-bar">
+				<div class="toolbar">
+					<!--
+						
+					v-bind:title 也可以写成  :title="addButtonTitle"
+					v-bind:title="内容实质上是一段js代码"
+					-->
+					<button v-on:click="addNote" v-bind:title="addButtonTitle">
+						<i class="material-icons">add</i> Add note
+					</button>
+				</div>
+				<div class="notes" >
+					<!--Note list here-->
+					<div class="note" v-for="note of notes">
+						<!--这里的{{}} 不能拆分成两行写-->
+						{{note.title}}
+					</div>
+				</div>
+			</aside>
+			<section class="main">
+				<!--
+					v-model:用于和vue对象中data对象的属性，用于实时同步数据
+				-->
+				<textarea v-model="contents"></textarea>
+			</section>
+			<!--
+				v-html:实质上是往aside中插入一段html代码
+			-->
+			<aside class="preview" v-html="notePreView"></aside>
+		</div>
+		
+        <script type="text/javascript" src="./app.js" ></script>
+	</body>
+</html>
