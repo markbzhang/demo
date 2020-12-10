@@ -92,13 +92,17 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 
 各种javascript功能片段，take it , get it , handle it ! Well done ,man!
 一起动手一起学，欢迎来Fork！详情看[github](https://github.com/markbzhang/js-pure-code)出处!
+
+
++ [在浏览器当前页面打开并操作另一个tab页](https://github.com/markbzhang/demo/blob/master/js/20201209.js)
++ [按照中文拼音顺序排序](https://github.com/markbzhang/demo/blob/master/js/20201208.js)
 + [限制异步操作的并发个数并尽可能快的完成全部](https://github.com/markbzhang/demo/blob/master/js/20200602.js)
 + [使用Promise实现红绿灯交替重复亮](https://github.com/markbzhang/demo/blob/master/js/20200601.js)
 + [Vuejs批量异步更新策略及nextTick原理](https://github.com/markbzhang/demo/blob/master/js/20200428.js)
 + [Create a cached version of a pure function](https://github.com/markbzhang/js-pure-code/blob/master/demoa1.js)
 + [HTML5本地存储-localStorage如何实现定时存储](https://github.com/markbzhang/js-pure-code/blob/master/demoa2.js)
 + [利用剪切板JS API优化输入框的粘贴体验](https://github.com/markbzhang/js-pure-code/blob/master/demoa3.js)
-+ [块级作用域使立即执行函数表达式（IIFE）不再必要](https://github.com/markbzhang/js-pure-code/blob/master/demoa6.js)
++ [块级作用域使立即执行函数表达式（IIFE）不再必要](https://github.com/markbzhang/js-pure-code/blob/master/demoa6.js) 
 + [在各种环境取顶层对象](https://github.com/markbzhang/js-pure-code/blob/master/demoa8.js)
 + [判断各种客户端](https://github.com/markbzhang/js-pure-code/blob/master/demoa9.js)
 + [监听script的完成事件](https://github.com/markbzhang/js-pure-code/blob/master/demoa10.js)
