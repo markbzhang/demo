@@ -69,6 +69,8 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 + [38如何用纯 CSS 创作阶梯文字特效](http://demo.zhangbing.name/201902/demo38.html)
 + [39用纯 CSS 创作一个表达怀念童年心情的条纹彩虹心特效](http://demo.zhangbing.name/202012/demo39.html)
 + [40如何用纯 CSS 创作一个记事本翻页动画](http://demo.zhangbing.name/202012/demo40.html)
++ [41太极圈](http://demo.zhangbing.name/202012/demo41.html)
+
 
 # 构建学习案例
 

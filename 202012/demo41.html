@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .big {
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin: -150px 0 0 -200px;
+            border-radius: 50%;
+            border: 1px solid #000000;
+            animation: donghua infinite linear 4s;
+
+        }
+
+        .half1 {
+            width: 300px;
+            height: 150px;
+
+            background: #ffffff;
+            transform: rotate(45deg);
+            transform-origin: 150px 150px;
+            border-radius: 150px 150px 0 0;
+            position: absolute;
+
+        }
+
+        .half2 {
+            width: 300px;
+            height: 150px;
+            background: #000000;
+            margin-top: 150px;
+            transform: rotate(45deg);
+            transform-origin: 150px 0px;
+            border-radius: 0 0 150px 150px;
+            position: absolute;
+        }
+
+        .half11 {
+            width: 150px;
+            height: 74px;
+            margin-top: 77px;
+            background: #000000;
+            border-radius: 74px 74px 0 0;
+            position: absolute;
+        }
+
+        .half21 {
+            width: 150px;
+            height: 74px;
+            margin-top: -2px;
+            margin-left: 150px;
+            background: #ffffff;
+            border-radius: 0 0 74px 74px;
+            position: absolute;
+            /* border: 1px solid red; */
+        }
+
+        .half12 {
+            width: 36px;
+            height: 36px;
+            background: #ffffff;
+            border-radius: 50%;
+            margin-top: -18px;
+            margin-left: 58px;
+        }
+
+        .half22 {
+            width: 36px;
+            height: 36px;
+            background: #000000;
+            border-radius: 50%;
+            margin-top: -18px;
+            margin-left: 58px;
+        }
+
+        @keyframes donghua {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body class="body1">
+    <div class="big">
+        <div class="half1">
+            <div class="half11"></div>
+        </div>
+
+        <div class="half2">
+            <div class="half21">
+                <div class="half22"></div>
+            </div>
+            <div class="half12"></div>
+        </div>
+    </div>
+</body>
+
+</html>
