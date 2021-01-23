@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --borderColor: #03A9F3;
+        }
+
+        div {
+            margin: 50px;
+        }
+
+        .div1 {
+            position: relative;
+            width: 140px;
+            height: 64px;
+            border: 1px solid #03A9F3;
+        }
+
+        .div1::before,
+        .div1::after {
+            content: "";
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            transition: 0.3s ease-in-out;
+        }
+
+        .div1::before {
+            top: -5px;
+            left: -5px;
+            border-top: 1px solid var(--borderColor);
+            border-left: 1px solid var(--borderColor);
+        }
+
+        .div1::after {
+            right: -5px;
+            bottom: -5px;
+            border-bottom: 1px solid var(--borderColor);
+            border-right: 1px solid var(--borderColor);
+        }
+
+        .div1:hover::before,
+        .div1:hover::after {
+            width: calc(100% + 9px);
+            height: calc(100% + 9px);
+        }
+
+        .div2,
+        .div3 {
+            width: 140px;
+            height: 64px;
+            position: relative;
+        }
+
+        .div2 {
+            background:
+                linear-gradient(90deg, #333 50%, transparent 0) repeat-x,
+                linear-gradient(90deg, #333 50%, transparent 0) repeat-x,
+                linear-gradient(0deg, #333 50%, transparent 0) repeat-y,
+                linear-gradient(0deg, #333 50%, transparent 0) repeat-y;
+            background-size: 4px 1px, 4px 1px, 1px 4px, 1px 4px;
+            background-position: 0 0, 0 100%, 0 0, 100% 0;
+            cursor: pointer;
+
+        }
+
+        .div2:hover {
+            animation: linearGeMove .3s infinite linear;
+        }
+
+        .div3 {
+            outline: 1px solid #333;
+            outline-offset: -1px;
+            transition: all .3s linear;
+            cursor: pointer;
+        }
+
+        .div3:hover {
+            outline: 1px solid transparent;
+            background:
+                linear-gradient(90deg, #333 50%, transparent 0) repeat-x,
+                linear-gradient(90deg, #333 50%, transparent 0) repeat-x,
+                linear-gradient(0deg, #333 50%, transparent 0) repeat-y,
+                linear-gradient(0deg, #333 50%, transparent 0) repeat-y;
+            background-size: 4px 1px, 4px 1px, 1px 4px, 1px 4px;
+            background-position: 0 0, 0 100%, 0 0, 100% 0;
+            animation: linearGeMove .3s infinite linear;
+        }
+
+        @keyframes linearGeMove {
+            100% {
+                background-position: 4px 0, -4px 100%, 0 -4px, 100% 4px;
+            }
+        }
+
+        .div4 {
+            position: relative;
+            z-index: 0;
+            width: 400px;
+            height: 300px;
+            border-radius: 10px;
+            overflow: hidden;
+            padding: 2rem;
+            box-sizing: border-box;
+        }
+
+        .div4::before {
+            content: '';
+            box-sizing: border-box;
+            position: absolute;
+            z-index: -2;
+            left: -50%;
+            top: -50%;
+            width: 200%;
+            height: 200%;
+            background-color: #399953;
+            background-repeat: no-repeat;
+            background-size: 50% 50%, 50% 50%;
+            background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+            background-image: linear-gradient(#399953, #399953), linear-gradient(#fbb300, #fbb300),
+                linear-gradient(#d53e33, #d53e33), linear-gradient(#377af5, #377af5);
+            animation: rotate 4s linear infinite;
+        }
+
+        .div4::after {
+            content: '';
+            position: absolute;
+            z-index: -1;
+            left: 6px;
+            top: 6px;
+            width: calc(100% - 12px);
+            height: calc(100% - 12px);
+            background: white;
+            border-radius: 5px;
+            animation: opacityChange 3s infinite alternate;
+        }
+
+        @keyframes opacityChange {
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: .5;
+            }
+        }
+
+        @keyframes rotate {
+            100% {
+                transform: rotate(1turn);
+            }
+        }
+
+        .div5 {
+            position: relative;
+            z-index: 0;
+            width: 400px;
+            height: 300px;
+            border-radius: 10px;
+            overflow: hidden;
+            padding: 2em;
+
+            color: #fff;
+            text-align: center;
+            line-height: 300px;
+
+        }
+
+        .div5::before {
+            content: '';
+            position: absolute;
+            z-index: -2;
+            left: -50%;
+            top: -50%;
+            width: 200%;
+            height: 200%;
+            box-sizing: border-box;
+            background-color: #1a232a;
+            background-repeat: no-repeat;
+            background-position: 0 0;
+            background-image: conic-gradient(transparent, rgba(168, 239, 255, 1), transparent 30%);
+            animation: rotate 4s linear infinite;
+        }
+
+        .div5::after {
+            content: '';
+            position: absolute;
+            box-sizing: border-box;
+            z-index: -1;
+            left: 6px;
+            top: 6px;
+            width: calc(100% - 12px);
+            height: calc(100% - 12px);
+            background: #000;
+            border-radius: 5px;
+
+        }
+
+        @keyframes rotate {
+            100% {
+                transform: rotate(1turn);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+
+    </div>
+
+    <div class="div2">
+
+    </div>
+    <div class="div3">
+
+    </div>
+    <div class="div4">
+
+    </div>
+
+    <div class="div5">
+        ❤
+    </div>
+
+</body>
+
+</html>
