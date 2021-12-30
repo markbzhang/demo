@@ -119,6 +119,9 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 + [双向数据绑定](https://github.com/markbzhang/demo/blob/master/js/20200219.js)
 
 
+# Threejs手工案例学习
++ [1第一个threejs案例](http://demo.zhangbing.club/threejs/demo/demo20211230.html)
+
 # Flutter代码学习
 
 
