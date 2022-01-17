@@ -71,6 +71,8 @@ ps:部分效果不支持IE，为了稳定输出效果，请用chrome浏览器打
 + [40如何用纯 CSS 创作一个记事本翻页动画](http://demo.zhangbing.club/202012/demo40.html)
 + [41太极圈](http://demo.zhangbing.club/202012/demo41.html)
 + [42边框有趣动画实操](http://demo.zhangbing.club/202101/demo42.html)
++ [43如何用纯 CSS 绘制一个充满动感的 Vue logo](http://demo.zhangbing.club/202201/demo43.html)
+
 
 # 构建学习案例
 
